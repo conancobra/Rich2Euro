@@ -1,0 +1,6 @@
+{
+  "name": "Rich2Euro",
+  "description": "Numismatische Experten-Analyse und realistische Wertermittlung für europäische 2-Euro-Münzen anhand von Vorder- und Rückseitenfotos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

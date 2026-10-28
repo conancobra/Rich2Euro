@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Rich2Euro</string>
+
+    <!-- API Key Onboarding & Management -->
+    <string name="api_key_badge">MULTI-SERVER KI-ZUGANG</string>
+    <string name="api_key_welcome_title">Dein persönlicher API-Key</string>
+    <string name="api_key_edit_title">API-Key &amp; Server verwalten</string>
+    <string name="api_key_subtitle">Rich2Euro nutzt deinen eigenen API-Key und wechselt bei hoher Auslastung automatisch zwischen mehreren schnellen Analyse-Servern, damit deine Prüfung ohne Wartezeit durchläuft.</string>
+    <string name="api_key_steps_title">In 3 kurzen Schritten startklar:</string>
+    <string name="api_key_step_1">1. Tippe unten auf den Button, um die offizielle Google API-Seite zu öffnen.</string>
+    <string name="api_key_step_2">2. Erstelle dort kostenlos deinen persönlichen Gemini API-Key und kopiere ihn.</string>
+    <string name="api_key_step_3">3. Füge den kopierten Key hier ein – mehrere Ersatz-Cluster werden automatisch eingerichtet.</string>
+    <string name="api_key_input_label">Haupt-API-Key (Google Gemini, Groq, OpenRouter oder OpenAI)</string>
+    <string name="api_key_input_placeholder">AIzaSy…</string>
+    <string name="api_key_backup_title">Optionaler Ersatz-API-Key (zusätzlicher Backup-Server)</string>
+    <string name="api_key_backup_hint">Bereits mit einem einzigen Google-Key nutzt Rich2Euro automatisch bis zu 6 verschiedene Analyse-Cluster. Optional kannst du hier einen zweiten Key (z. B. zweiter Google-Key, Groq oder OpenRouter) hinterlegen.</string>
+    <string name="api_key_backup_label">Zweiter API-Key (optional)</string>
+    <string name="api_key_backup_placeholder">Optionaler zweiter Key…</string>
+    <string name="api_key_paste_clipboard">Aus Zwischenablage einfügen</string>
+    <string name="api_key_clipboard_empty">Die Zwischenablage enthält keinen Text.</string>
+    <string name="api_key_validation_empty">Bitte gib zuerst deinen API-Key ein.</string>
+    <string name="api_key_validation_short">Der eingegebene API-Key wirkt unvollständig. Bitte kopiere den vollständigen Schlüssel.</string>
+    <string name="api_key_save_and_start">API-Key speichern &amp; starten</string>
+    <string name="api_key_save_changes">Einstellungen speichern</string>
+    <string name="api_key_delete_saved">Gespeicherte API-Keys entfernen</string>
+    <string name="api_key_cancel">Zurück zur App</string>
+    <string name="api_key_bottom_hint">Noch keinen eigenen Token erstellt?</string>
+    <string name="api_key_open_google_button">Zu Google AI Studio – API-Key erstellen</string>
+    <string name="api_key_browser_error">Die Google API-Seite konnte nicht geöffnet werden (kein Browser gefunden).</string>
+    <string name="cd_show_api_key">API-Key anzeigen</string>
+    <string name="cd_hide_api_key">API-Key verbergen</string>
+    <string name="cd_clear_api_key_input">Eingabefeld leeren</string>
+    <string name="cd_manage_api_key">Eigenen API-Key verwalten</string>
+    <string name="action_edit_api_key">API-Key prüfen / ändern</string>
+
+    <!-- Navigation -->
+    <string name="nav_analyze">Prüfen</string>
+    <string name="nav_history">Gutachten</string>
+    <string name="nav_guide">Fachwissen</string>
+
+    <!-- Top Bar & Hero -->
+    <string name="app_subtitle">Europäische 2-Euro-Numismatik</string>
+    <string name="cd_hero_banner">Nahaufnahme europäischer 2-Euro-Münzen mit Numismatiker-Lupe</string>
+
+    <!-- In-App Circular Coin Camera -->
+    <string name="camera_obverse_title">Bild 1: Vorderseite (Landesmotiv)</string>
+    <string name="camera_reverse_title">Bild 2: Rückseite (Europakarte)</string>
+    <string name="camera_circle_hint">Positioniere die 2-Euro-Münze passgenau im Kreis</string>
+    <string name="camera_capturing_status">Münzausschnitt wird erstellt…</string>
+    <string name="cd_camera_close">Kamera schließen</string>
+    <string name="cd_camera_torch">Kameralicht umschalten</string>
+    <string name="cd_camera_shutter">Münze im Kreis fotografieren</string>
+
+    <!-- Coin Side Upload Cards -->
+    <string name="side_obverse_badge">BILD 1</string>
+    <string name="side_obverse_title">Vorderseite (Landesmotiv)</string>
+    <string name="side_obverse_subtitle">Nationale Motivseite, Gedenkmotiv &amp; Prägejahr</string>
+    <string name="side_reverse_badge">BILD 2</string>
+    <string name="side_reverse_title">Rückseite (Europakarte)</string>
+    <string name="side_reverse_subtitle">Gemeinsame Wertseite („2 EURO“ &amp; Landkarte)</string>
+
+    <string name="action_pick_gallery">Galerie</string>
+    <string name="action_take_photo">Kamera</string>
+    <string name="action_remove_photo">Foto entfernen</string>
+    <string name="action_swap_sides">Vorder- &amp; Rückseite tauschen</string>
+    <string name="action_reset_all">Auswahl zurücksetzen</string>
+    <string name="status_image_ready">Aufnahme bereit</string>
+    <string name="status_image_missing">Noch kein Bild gewählt</string>
+    <string name="cd_obverse_preview">Vorschau Bild 1 Vorderseite Landesmotiv</string>
+    <string name="cd_reverse_preview">Vorschau Bild 2 Rückseite Europakarte</string>
+
+    <!-- Analyze Action & States -->
+    <string name="action_analyze_coin">2-Euro-Münze jetzt analysieren</string>
+    <string name="hint_select_both_sides">Bitte wähle beide Münzseiten (Bild 1 &amp; Bild 2) aus, um die Experten-Analyse zu starten.</string>
+    <string name="analyzing_title">Schnelle Multi-Server-Prüfung…</string>
+    <string name="analyzing_subtitle">Bei Auslastung wechselt Rich2Euro automatisch sofort auf den nächsten freien Analyse-Server.</string>
+    <string name="error_title">Analyse konnte nicht abgeschlossen werden</string>
+    <string name="action_retry">Erneut versuchen</string>
+    <string name="action_dismiss">Schließen</string>
+    <string name="camera_permission_denied">Kamerazugriff wurde abgelehnt. Du kannst jederzeit Fotos aus deiner Galerie auswählen oder die Berechtigung in den Einstellungen freigeben.</string>
+    <string name="camera_launch_failed">Kamera konnte nicht gestartet werden. Bitte prüfe die Kameraberechtigung oder nutze die Galerie.</string>
+
+    <!-- Analysis Report Screen -->
+    <string name="report_screen_title">Numismatisches Gutachten</string>
+    <string name="cd_navigate_back">Zurück</string>
+    <string name="cd_share_report">Gutachten teilen</string>
+    <string name="action_share_report">Gutachten teilen</string>
+    <string name="action_scan_another">Weitere 2-Euro-Münze prüfen</string>
+    <string name="label_realistic_market_value">Realistischer Marktwert (aktueller Zustand)</string>
+    <string name="label_mint_mark">Prägestätte: %1$s</string>
+    <string name="label_country">Land: %1$s</string>
+    <string name="not_two_euro_notice">Hinweis: Auf den Bildern konnte keine eindeutige 2-Euro-Münze erkannt werden. Bitte prüfe die detaillierten Angaben unten oder nimm schärfere Fotos auf.</string>
+
+    <!-- 6 Mandatory Sections -->
+    <string name="section_1_title">1. Land &amp; Motiv</string>
+    <string name="section_2_title">2. Prägejahr</string>
+    <string name="section_3_title">3. Auflage &amp; Seltenheit</string>
+    <string name="section_4_title">4. Zustand &amp; Erhaltung</string>
+    <string name="section_4_scratch_note">Wichtig: Kratzer, Randkerben und Umlaufspuren mindern den Sammlerwert drastisch.</string>
+    <string name="section_5_title">5. Realistischer Marktwert</string>
+    <string name="section_6_title">6. Wichtiger Hinweis zu Fake-Preisen</string>
+    <string name="section_6_badge">WARNUNG VOR MONDPREISEN</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Geprüfte Münzen (Sitzung)</string>
+    <string name="history_subtitle">Alle in dieser Sitzung erstellten Gutachten zum schnellen Vergleichen.</string>
+    <string name="history_empty_title">Noch keine Münze analysiert</string>
+    <string name="history_empty_body">Fotografiere oder lade im Bereich „Prüfen“ Vorder- und Rückseite einer 2-Euro-Münze hoch. Deine Gutachten erscheinen anschließend hier.</string>
+    <string name="action_go_to_analyzer">Jetzt erste Münze prüfen</string>
+
+    <!-- Guide Screen -->
+    <string name="guide_title">2-Euro-Numismatik &amp; Ratgeber</string>
+    <string name="guide_subtitle">Verlässliches Sammlerwissen zu Kleinstaaten, Erhaltungsgraden und echten Fehlprägungen.</string>
+</resources>
